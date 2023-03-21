@@ -67,13 +67,13 @@ export default function Experience() {
 <div name='experience' className=' p-2 bg-gradient-to-b from-slate-500  via-amber-900 to-lime-500 w-full h-screen '>
 <div className='max-w-screen-lg mx-auto  flex flex-col justify-center w-full h-full text-white'>
     <div >
-         <p  className='text-5xl p-2  text- text-black font-bold underline flex'>Experiences <GiSaberToothedCatHead  className=' text-gray-50 to-fuchsia-700'/></p>
-         <p className=" p-2 font-bold">Les technologies sur lesquelles j'ai travallé pour mes differents projet sont </p>
+         <p  className='text-5xl p-2  text- text-black font-bold underline flex'>Experiences<GiSaberToothedCatHead  className=' text-gray-50 to-fuchsia-700'/></p>
+         <p className=" p-2 font-bold text-2xl ">Mes experiences avec les Framwork-bibliotèques-languages sont  <hr/>  </p>
     </div>
- <p className=''>
+ <p className='text-1xl text-black'>
    React - Node-js - Tailwind - Bootstrap - Bootstrap-react - React-icons - React-player(NPM video)
-           Getform.io - Google font - Les API - JEE - Talend (BI) - Angular - Javascrip - CSS - HTML - Oracla - SQL - Mysql - php -
-             C - Scripting(language bash) - PHP 
+  Getform.io - Google font - Les API - JEE - Talend (BI) - Angular - Javascrip - CSS - HTML - Oracla - SQL - Mysql - php -
+  C - Scripting(language bash) - PHP -Git
   </p>  
     <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-4 px-4 sm:px-0'> 
       

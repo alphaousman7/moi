@@ -11,18 +11,12 @@ const About = () => {
           <p className="text-4xl  font-bold flex flex-col"><SiProbot size={100} className="pb-3 from-red-400  to-black"/>
           </p>
          <p className="text-xl mt-2 container">
-         <span className=" font-bold underline">Apropos de moi :</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          recusandae rerum laborum perferendis molestiae
-         </p>
-         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+         <span className=" font-bold underline">Apropos de moi :</span>Mon nom est Dialllo alpha ousmane je suis guinéen et j'ai 26ans.<br/>Je suis diplomé en licence MIAGE a l'université de Labé ( GUINEE CONAKRY).
+          Actuelement je suis inscrit en licence
+                      proffessionnelle informatique a l'école superieur de SUPEMIR à Casablanca .Jai beaucoup de passion pour la programmation
+                       informatique ,le developpement des site internet ,
+                       la conception des base de données....
+                      Mes languages favorites sont: JS - C - Mysql - Oracle -Bash - PHP - HTML  ...   
          </p>
       </div>
     </div>

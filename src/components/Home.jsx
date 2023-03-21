@@ -8,10 +8,12 @@ export default function Home() {
     <div name="home" className='py-6 h-screen w-full bg-gradient-to-b from-lime-300 to-orange-400 via-amber-400 text-orange-900'>
         <div className=' max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row'> 
               <div className=' flex flex-col justify-center h-full'> 
-                <h2 className='text-4xl sm:text-6xl font-bold '> Je suis devellopeur fulstack F-E junior </h2>
-                    <p className=' text-lime-800 py-4 max-w-md font-bold '>J'ai 26ans et je suis actuelement en licence proffessionnelle surtout j'adore la programmation informatique le developpement des site internet la conception des base de données.
-                        informatique bla bla bla J'ai 26ans et je suis actuelement en licence proffessionnelle
-                       j'aime les thechnologies informatique ,react,tailwind,googlefont,css,htm,mysql,...
+                <h2 className='text-4xl sm:text-6xl font-bold '> Je suis devellopeur web </h2>
+                    <p className=' text-lime-800 py-4 max-w-md font-bold '>
+                     Mon nom est Dialllo alpha ousmane je suis guinéen et j'ai 26ans.<br/> A actuelement en licence 
+                      proffessionnelle informatique a l'école superieur de SUPEMIR à Casablanca .Jai beaucoup de passion pour la programmation
+                       informatique ,le developpement des site internet ,
+                       la conception des base de données....
                     </p>
             <div>
                 <Link to='portfolio' smooth duration={500}

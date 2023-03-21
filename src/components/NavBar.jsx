@@ -29,8 +29,12 @@ const links=[//on a le tableau de nos 5 liens
     },
     {
       id: 6,
-      link: 'vide'//le lien vers mon contact
+      link: 'video'//le lien vers mon contact
       },
+      {
+        id:7,
+        link: 'source'
+      }
 
 ]
   return (//la bar de nav

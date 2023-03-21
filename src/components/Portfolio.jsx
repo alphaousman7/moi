@@ -57,13 +57,15 @@ const portfolios=[//le tableau d'image donc ce qu'on va boucler dans
                              className='rounded-md duration-300 border hover:scale-105'/>
                            
                             <div className='text-amber-500  flex items-center justify-center'>
-                            <Link to='vide' smooth duration={500} >
+                            <Link to='video' smooth duration={500} >
                             <button className=' w-1/2 px-3 m-2 duration-200 hover:scale-105 
                                 md text-1xl via-black  font-bold  my-1 flex items-center rounded-md bg-gradient-to-r from-green-900 cursor-pointer'  >Demo<span className='hover:rotate-90 duration-300 bg-black fp'><GoDeviceCameraVideo size={25} className=' ml-4'/></span></button>
                            </Link>
+                           <Link to='source' smooth duration={500}>
                                 <button className='text-amber-500  w-1/2 px-3 m-2 duration-200 hover:scale-105 
                                 md text-1xl  via-black  font-bold  my-1 flex items-center rounded-md bg-gradient-to-r from-green-900 cursor-pointer'  >Code<RiCodeBoxFill size={25} className='hover:rotate-90 duration-300 ml-4 bg-black fp '/></button>
-                            </div>
+                           </Link> 
+                           </div>
                         </div>
                   
                 ))

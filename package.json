@@ -1,5 +1,5 @@
 {
-  "homepage":"https://alphaousman7.ghithub.io/moi",
+  "homepage": "https://alphaousman7.ghithub.io/moi",
   "name": "one-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
+    "gsap": "^3.11.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
