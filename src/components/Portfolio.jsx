@@ -41,7 +41,7 @@ const portfolios=[//le tableau d'image donc ce qu'on va boucler dans
     },
 ]
 
-  return (<div name='portfolio' className=' bg-gradient-to-b via-amber-400 from-orange-200 to-lime-300 font-bold md:h-screen '>
+  return (<div name='works' className=' bg-gradient-to-b via-amber-400 from-orange-200 to-lime-300 font-bold md:h-screen '>
             <div className='m-2 max-w-screen-lg  p-3 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-2'>
                     <p className=' flex text-2xl font-bold from-orange-900  '><GiAnimalHide className='mx-1 '/> <GiPianist size={60}/></p>

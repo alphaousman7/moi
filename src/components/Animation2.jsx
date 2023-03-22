@@ -14,8 +14,10 @@ export default function Animation2(){
   const onLoad = () => {
     gsap.timeline({
       onComplete: function () {
-        console.log('animation terminée')
-      }
+     
+        console.log('vous etez dans le site d`information de Alpha ousmane ')
+      
+        }
     })
       .fromTo(".letter",
       {
@@ -30,12 +32,12 @@ export default function Animation2(){
       }      
     )
     .to(".title", {
-      y: 100,
+      y: 300,
       delay: 0.7
     })
     .to(".letter", {
       margin: "0 2vw",
-      delay: 0.5,
+      delay: 0.7,
       duration: 0.5
     })
     .to(".letter", {
@@ -46,17 +48,17 @@ export default function Animation2(){
     .to(".letter", {
       x: -titleRef.current.clientWidth,
       delay: 2,
-      duration: 2,
+      duration: 1,
       rotate: -360
     })
     .to(".title", {
-      y: -50
+      y: -75
       
     })
     .to(".letter", {
       x: 0,
       delay: 1,
-      duration: 2
+      duration: 1
     })
   }
 
@@ -70,7 +72,7 @@ export default function Animation2(){
       {
         opacity: 1,
         y: 0,
-        delay: delay || 0.4,
+        delay: delay || 0.6,
         duration: duration || 0.6,
         scrollTrigger: {
           trigger: elem,
@@ -128,12 +130,10 @@ export default function Animation2(){
   
   return (
     <div className="App">
-      <h3 className="title" ref={titleRef}>
-        <span className="letter">Securité -</span>
-        <span className="letter">Confort -</span>
-        <span className="letter">Assurance -</span>
-        <span className="letter">Confiance -</span>
-        <span className="letter">TransGuinée -</span>
+      <h3 className="title  underline " ref={titleRef}>
+        <span className=" letter font-bold text-black ">Observation -</span>
+        <span className="letter font-bold text-black ">Analyse -</span>
+        <span className="letter font-bold text-black ">Execution</span>
       </h3>
     </div>
   )

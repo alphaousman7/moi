@@ -1,7 +1,5 @@
-import { Routes } from "react-router-dom";
 import About from "./components/About";
 import Codee from "./components/Code";
-import Code from "./components/Code";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
